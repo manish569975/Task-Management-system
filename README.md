@@ -38,6 +38,47 @@ A full-featured task management application built using the MERN stack (MongoDB,
 ---
 
 ## 📁 Project Structure
+📦 Task-Management-App
+├── 📂 client                         # React Frontend
+│   ├── 📂 components                 # Reusable components (Task, Badge, etc.)
+│   │   ├── Badge.jsx
+│   │   └── Task.jsx
+│   │
+│   ├── 📂 pages                      # React page-level components
+│   │   ├── HomePage.jsx
+│   │   ├── ShowTask.jsx
+│   │   └── TaskListPage.jsx
+│   │
+│   ├── 📂 helper                     # Utility/helper functions
+│   │   ├── getZodError.js
+│   │   └── showToast.js
+│   │
+│   ├── App.jsx                       # Main App component with routes
+│   ├── main.jsx                      # React app entry point
+│   ├── index.css                     # Tailwind or global styles
+│   ├── vite.config.js                # Vite config
+│   ├── package.json
+│   └── .env                          # Frontend environment config
+│
+├── 📂 api (or server)                # Express Backend
+│   ├── 📂 controllers                # All route handlers / logic
+│   │   └── taskController.js
+│   │
+│   ├── 📂 routes                     # API routes
+│   │   └── taskRoutes.js
+│   │
+│   ├── 📂 models                     # Mongoose models
+│   │   └── taskModel.js
+│   │
+│   ├── .env                          # Backend environment variables
+│   ├── index.js                      # Express server entry point
+│   ├── package.json
+│   └── package-lock.json
+│
+├── .gitignore
+├── README.md                         # Project overview and setup
+└── 📸 (optional screenshots folder)
+
 
 
 
